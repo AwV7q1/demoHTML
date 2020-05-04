@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.btn-danger {
+    background-color: #F24962;
+    border: 1px solid #F24962;
+}
+
+/*start course*/
+
+#course {
+    margin-top: 30px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto
+}
+
+.content-wrap {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.content {
+    height: 260px;
+    overflow: hidden;
+}
+
+.content .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .sub-title {
+    margin: 10px 0 10px 0;
+}
+
+.content .description .detail {
+    margin: 10px 0 10px 0;
+}
+
+.button {
+    margin
+}
+
+/*end course*/
+
+/*start categori*/
+#category {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#category .wrap {
+    background-color: white;
+    padding: 20px;
+}
+
+/*start library*/
+.header-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-category .link-navigation .link {
+    padding: 0 10px 0 10px;
+    color: #F24962;
+    text-decoration: none;
+    font-weight: bold
+}
+
+.header-category .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.library {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 -10px 0 -10px;
+
+}
+
+.library .card-book {
+    width: 25%;
+    padding: 20px 10px 0 10px;
+
+}
+
+.library .book-image {
+    width: 100%;
+    height: auto;
+}
+
+.library .card-book .content-book {
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+
+.library .card-book .btn-custom {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+/*end library*/
+
+/*start form*/
+.form-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-register {
+    margin-top: 15px;
+}
+
+.form-register .custom-label {
+    font-size: 14px;
+}
+
+/*end form*/
+
+/*end categori*/
